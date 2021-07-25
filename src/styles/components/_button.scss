@@ -7,6 +7,7 @@
   font-size: $l-size;
   padding: 2.4rem;
   width: 100%;
+  margin-bottom: $m-size;
 }
 
 .big-button:disabled {
@@ -26,4 +27,10 @@
   background: none;
   border: none;
   color: $off-white;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .big-button {
+    margin-bottom: $xl-size;
+  }
 }
